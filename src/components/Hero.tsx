@@ -3,7 +3,6 @@ import { FaSquareGithub, FaLinkedin } from 'react-icons/fa6'
 // import michalImageTransparent from '../assets/images/michal.png'
 import { motion } from 'framer-motion'
 // import { TypeAnimation } from 'react-type-animation'
-import { Button } from '@/components/ui/button'
 
 const Hero = () => {
 	return (
@@ -60,10 +59,6 @@ const Hero = () => {
 							href={'https://github.com/misiek869'}>
 							<FaSquareGithub className='text-slate-100 w-8 h-8 md:w-10 md:h-10 3xl:w-12 3xl:h-12 hover:text-slate-200 hover:animate-pulse hover:scale-110 duration-300' />
 						</motion.a>
-
-						<div className='flex min-h-svh flex-col items-center justify-center'>
-							<Button>Click me</Button>
-						</div>
 					</div>
 				</div>
 				{/* <img src={michalImageTransparent} alt='' className='rounded-sm' /> */}
