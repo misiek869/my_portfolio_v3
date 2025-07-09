@@ -14,17 +14,11 @@ function App() {
 		<AnimatePresence mode={'wait'}>
 			<Routes location={location} key={location.pathname}>
 				<Route path='/' element={<Layout />}>
-					<Route
-						index
-						element={
-							<>
-								<Hero />
-								<About />
-								<Projects />
-								<Contact />
-							</>
-						}
-					/>
+					<Route index element={<Hero />} />
+					<Route path='about' element={<About />} />
+					<Route path='projects' element={<Projects />} />
+					<Route path='projects/:projectId' element={<ProjectDetails />} />
+					<Route path='contact' element={<Contact />} />
 					<Route path='projects/:projectId' element={<ProjectDetails />} />
 				</Route>
 			</Routes>
