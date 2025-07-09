@@ -2,7 +2,7 @@ import { FaSquareGithub, FaLinkedin } from 'react-icons/fa6'
 // import michalImage from '../assets/images/Zdjęcie_michal.jpg'
 // import michalImageTransparent from '../assets/images/michal.png'
 import { motion } from 'framer-motion'
-import { TypeAnimation } from 'react-type-animation'
+// import { TypeAnimation } from 'react-type-animation'
 
 const Hero = () => {
 	return (
