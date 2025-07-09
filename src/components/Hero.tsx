@@ -8,14 +8,14 @@ const Hero = () => {
 	return (
 		<section className='max-w-screen'>
 			<div
-				className='flex p-4 md:p-10 h-[50vh] xl:h-[80vh] rounded-sm'
+				className='flex p-4 md:p-10 h-screen'
 				style={{
 					background: `
   radial-gradient(circle at 30% -30%, #131213 0%, transparent 48%),
-  radial-gradient(circle at 90% 150%, #ee79de 0%, #000 48%)
+  radial-gradient(circle at 100% 110%, #4b1544 0%, #000 28%)
 `,
 				}}>
-				<div className='flex flex-col items-start justify-center'>
+				<div className='flex flex-col items-start justify-center w-[90vw] lg:w-[70vw] mx-auto'>
 					<motion.h1
 						initial={{ x: '150%' }}
 						animate={{ x: 0 }}
