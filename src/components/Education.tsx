@@ -24,7 +24,8 @@ const Education = () => {
 						</p>
 					</div>
 					<h3 className='mb-3 font-bold text-lg md:text-xl 2xl:text-2xl tracking-wider'>
-						Organizator: <span className='font-normal'>DevMentor.pl</span>
+						{t('mentoringOrganizer')}:{' '}
+						<span className='font-normal'>DevMentor.pl</span>
 					</h3>
 					<p className='tracking-wider text-justify text-md md:text-lg lg:text-xl leading-loose'>
 						{t('mentoringDescription')}
