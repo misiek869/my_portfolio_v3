@@ -26,15 +26,8 @@ const ProjectCard = ({
 	const { t } = useTranslation()
 
 	return (
-		<article
-			style={{
-				background: `
-  radial-gradient(circle at 30% -30%, #252225 0%, transparent 48%),
-  radial-gradient(circle at 90% 150%, #6b3063 0%, #000 65%)
-`,
-			}}
-			className='flex flex-col items-center border p-4 shadow-sm bg-slate-50  rounded-lg '>
-			<h3 className='text-slate-50 text-2xl font-semibold capitalize tracking-wide text-center 3xl:text-3xl'>
+		<article className='flex flex-col items-center border p-4 shadow-sm bg-slate-100 rounded-md '>
+			<h3 className='text-gray-900 text-2xl font-semibold capitalize tracking-wide text-center 3xl:text-3xl'>
 				{title}
 			</h3>
 			{/* <h3 className='bg-gradient-to-r from-red-950 via-gray-900 to-purple-950 inline-block text-transparent bg-clip-text text-2xl font-semibold capitalize tracking-wide text-center 3xl:text-3xl'>
@@ -45,14 +38,14 @@ const ProjectCard = ({
 				<div className='flex gap-x-6 justify-center mt-6'>
 					{url ? (
 						<a target='_blank' href={url} className=''>
-							<TbWorldWww className='h-8 w-8 3xl:h-12 3xl:w-12 text-slate-50 hover:text-purple-950 duration-300 hover:scale-110' />
+							<TbWorldWww className='h-8 w-8 3xl:h-12 3xl:w-12 text-gray-900 hover:text-purple-950 duration-300 hover:scale-110' />
 						</a>
 					) : (
 						''
 					)}
 
 					<a target='_blank' href={github} className=''>
-						<FaGithubSquare className='h-8 w-8 3xl:h-12 3xl:w-12 text-slate-50 hover:text-purple-950 duration-300 hover:scale-110' />
+						<FaGithubSquare className='h-8 w-8 3xl:h-12 3xl:w-12 text-gray-900 hover:text-purple-950 duration-300 hover:scale-110' />
 					</a>
 				</div>
 				<Link
