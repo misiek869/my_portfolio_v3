@@ -3,10 +3,18 @@ import { FaSquareGithub, FaLinkedin } from 'react-icons/fa6'
 // import michalImageTransparent from '../assets/images/michal.png'
 import { motion } from 'framer-motion'
 // import { TypeAnimation } from 'react-type-animation'
+import Navigation from './Navigation'
 
 const Hero = () => {
 	return (
 		<section className='max-w-screen'>
+			<motion.div
+				initial={{ opacity: 0 }}
+				animate={{ opacity: 1 }}
+				transition={{ delay: 0.7, duration: 0.7 }}
+				className='fixed top-4 left-4'>
+				<Navigation hidden={'home'} />
+			</motion.div>
 			<div
 				className='flex p-4 md:p-10 h-screen'
 				style={{

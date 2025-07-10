@@ -38,12 +38,12 @@ const Navigation = ({ disabled, hidden }: NavigationProps) => {
 						}>
 						Home
 					</a>
-          
+
 					<a
 						href='/about'
 						className={
 							hidden === 'about'
-								? 'text-center my-0.5 py-0.5 text-xl font-semibold line-through pointer-events-none'
+								? 'text-center my-0.5 py-0.5 text-xl font-semibold text-orange-950  pointer-events-none'
 								: 'text-center my-0.5 py-0.5 text-xl font-semibold'
 						}>
 						O Mnie
