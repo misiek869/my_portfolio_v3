@@ -27,6 +27,8 @@ I build both frontend and full-stack projects – you can check out a few of the
 				notFoundProject: `Can't find project`,
 				skillsTitle: 'My Skills',
 				educationTitle: 'Education',
+				mentoringDescription:
+					'The mentoring covered topics ranging from the basics to advanced concepts of HTML, CSS, JavaScript, React, Redux, and React Router. Under the guidance of an experienced developer-mentor, I learned how to build responsive websites and web applications. Additionally, I mastered the use of Git and GitHub to manage my projects. Through the mentoring program, I also gained knowledge of best programming practices and tools for testing and debugging code. Thanks to this course, I now feel confident in creating modern and functional web applications.',
 			},
 		},
 		pl: {
@@ -56,6 +58,8 @@ I build both frontend and full-stack projects – you can check out a few of the
 				notFoundProject: 'Nie ma takiego projektu',
 				skillsTitle: 'Moje Umiejętności',
 				educationTitle: 'Edukacja',
+				mentoringDescription:
+					'Mentoring obejmował tematy od podstaw do zaawansowanych koncepcji HTML, CSS, JavaScript, React, Redux, React Router. Pod okiem doświadczonego mentora-programisty nauczyłem się, jak tworzyć responsywne strony internetowe i aplikacje internetowe. Dodatkowo opanowałem korzystanie z Gita i GitHuba do zarządzania moimi projektami. Dzięki mentoringowi zdobyłem również wiedzę na temat najlepszych praktyk programistycznych i narzędzi do testowania i debugowania kodu. Dzięki temu kursowi czuję się pewnie w tworzeniu nowoczesnych i funkcjonalnych aplikacji internetowych. ',
 			},
 		},
 	},
