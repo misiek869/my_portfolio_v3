@@ -41,27 +41,34 @@ const ProjectDetails = () => {
 			animate={{ x: 0 }}
 			exit={{ x: '-200%' }}
 			transition={{ duration: 0.3 }}
-			className='flex flex-col mt-20 xl:mt-10 mb-20'>
+			style={{
+				background: `
+  radial-gradient(circle at 30% -30%, #131213 0%, transparent 48%),
+  radial-gradient(circle at 100% 110%, #4b1544 0%, #000 28%)
+`,
+			}}
+			className='flex flex-col max-w-screen min-h-screen py-20'>
 			<Link
-				to='/'
+				to='/projects'
 				className='absolute top-4 left-8 text-gray-500 hover:text-gray-800 duration-300 flex items-center group 3xl:text-2xl'>
 				<FaArrowLeft className='mr-2 transition-transform duration-300 group-hover:scale-125 group-hover:-translate-x-2' />
 				{t('goBackBtn')}
 			</Link>
-			<div className='max-w-[90vw] lg:max-w-[70vw] mx-auto '>
-				<h1 className='text-4xl md:text-5xl 3xl:text-6xl bg-gradient-to-r from-purple-950 via-gray-950 to-purple-950 inline-block text-transparent bg-clip-text  font-bold tracking-wide capitalize pb-2 overflow-hidden'>
+			<div className='mb-8 w-[80vw] lg:w-[60vw] mx-auto text-slate-100 '>
+				<h2 className='text-3xl md:text-4xl font-bold tracking-wide capitalize 3xl:text-5xl'>
 					{project.title}
-				</h1>
+				</h2>
 
 				<div className='flex flex-wrap mx-auto justify-center gap-x-8  mt-14'>
+					<p className='text-4xl sm:text-6xl text-slate-100 '></p>
 					{project.tech.map((IconComponent, index) => (
-						<div key={index} className='text-4xl sm:text-6xl text-gray-900 '>
+						<div key={index} className='text-4xl sm:text-6xl text-slate-100 '>
 							<IconComponent />
 						</div>
 					))}
 				</div>
-				<div className='bg-white rounded-sm shadow-sm p-5 sm:p-10 mt-10 max-w-full'>
-					<p className='text-xl 3xl:text-2xl  3xl:leading-10 leading-loose  text-gray-900'>
+				<div className='bg-slate-100 rounded-sm shadow-sm p-5 sm:p-10 mt-10 max-w-full'>
+					<p className='text-xl 3xl:text-2xl  3xl:leading-10 leading-loose text-justify text-gray-900'>
 						{project.text[i18n.language as keyof typeof project.text]}
 					</p>
 					<div className='flex gap-x-12 justify-center my-8'>

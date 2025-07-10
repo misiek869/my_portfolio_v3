@@ -29,7 +29,7 @@ const About = () => {
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
 					transition={{ delay: 0.1, duration: 0.7 }}
-					className='mb-8  w-[80vw] lg:w-[60vw] mx-auto text-slate-100 '>
+					className='mb-8 w-[80vw] lg:w-[60vw] mx-auto text-slate-100 '>
 					<h2 className=' text-3xl md:text-4xl font-bold tracking-wide capitalize 3xl:text-5xl'>
 						{t('aboutTitle')}
 					</h2>
