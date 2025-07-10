@@ -12,7 +12,7 @@ const Footer = () => {
 			animate={{ y: 0 }}
 			exit={{ y: '200%' }}
 			transition={{ duration: 0.3 }}
-			className=' bg-gray-950 flex md:flex-row flex-col justify-center md:justify-between  py-6 px-8 md:py-4  w-screen absolute bottom-0 right-0'>
+			className=' bg-transparent flex md:flex-row flex-col justify-center md:justify-between  py-6 px-8 md:py-4  w-screen absolute bottom-0 right-0'>
 			<p className='text-slate-50 tracking-wider text-md md:text-lg font-normal mb-4 md:mb-0 text-center'>
 				Copyright &copy;{currentYear} Michał Gawlik
 			</p>
