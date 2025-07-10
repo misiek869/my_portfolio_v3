@@ -23,12 +23,12 @@ const Navigation = ({ disabled, hidden }: NavigationProps) => {
 					<Menu className='h-6 w-6' />
 				</Button>
 			</SheetTrigger>
-			<SheetContent side='left' className='h-[300px] w-[300px] rounded-full'>
+			<SheetContent side='left' className='h-full w-full '>
 				<SheetTitle>
 					<VisuallyHidden>Ukryty tytuł dla czytników ekranu</VisuallyHidden>
 				</SheetTitle>
 
-				<div className='flex gap-0.5 justify-center flex-col items-center bg-red-200 '>
+				<div className='flex gap-10 justify-center flex-col items-center h-full'>
 					<a
 						href='/'
 						className={
