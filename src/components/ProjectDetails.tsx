@@ -49,10 +49,10 @@ const ProjectDetails = () => {
   radial-gradient(circle at 100% 110%, #4b1544 0%, #000 28%)
 `,
 				}}
-				className='flex flex-col max-w-screen min-h-screen py-20'>
+				className='flex flex-col max-w-screen min-h-screen py-20 justify-center'>
 				<Link
 					to='/projects'
-					className='absolute top-4 left-8 text-gray-500 hover:text-gray-800 duration-300 flex items-center group 3xl:text-2xl'>
+					className='absolute top-4 left-8 text-slate-100/40 hover:text-slate-100/90 duration-300 flex items-center group 3xl:text-2xl'>
 					<FaArrowLeft className='mr-2 transition-transform duration-300 group-hover:scale-125 group-hover:-translate-x-2' />
 					{t('goBackBtn')}
 				</Link>
