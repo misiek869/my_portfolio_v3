@@ -6,20 +6,16 @@ const About = () => {
 	const { t } = useTranslation()
 
 	return (
-		<motion.section
-			initial={{ x: '150%' }}
-			animate={{ x: 0 }}
-			exit={{ x: '150%' }}
+		<section
 			style={{
 				background: `
-    radial-gradient(circle at 30% -30%, #e0e0e0 20%, transparent 48%),
-    radial-gradient(circle at 90% 150%, #b0b0b0 0%, #f5f5f5 48%)
-  `,
+  radial-gradient(circle at 30% -30%, #131213 0%, transparent 48%),
+  radial-gradient(circle at 100% 110%, #4b1544 0%, #000 28%)
+`,
 			}}
-			transition={{ duration: 0.3, delay: 0.2 }}
-			className='mt-20 px-4 py-6 md:px-10 md:py-16  rounded-sm shadow-sm'>
-			<div className='mb-8'>
-				<h2 className='bg-gradient-to-r from-gray-950  to-purple-950 inline-block text-transparent bg-clip-text text-3xl md:text-4xl font-bold tracking-wide capitalize 3xl:text-5xl'>
+			className='max-w-screen h-screen'>
+			<div className='mb-8 pt-20 w-[80vw] lg:w-[60vw] mx-auto text-slate-100 '>
+				<h2 className=' text-3xl md:text-4xl font-bold tracking-wide capitalize 3xl:text-5xl'>
 					{t('aboutTitle')}
 				</h2>
 				<div className='mt-10'>
@@ -45,7 +41,7 @@ const About = () => {
 			</div>
 
 			<Skills />
-		</motion.section>
+		</section>
 	)
 }
 

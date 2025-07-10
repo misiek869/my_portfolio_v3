@@ -28,25 +28,24 @@ const Navigation = ({ disabled, hidden }: NavigationProps) => {
 					<VisuallyHidden>Ukryty tytuł dla czytników ekranu</VisuallyHidden>
 				</SheetTitle>
 
-				<div className='flex gap-10 justify-center flex-col items-center h-full'>
+				<div className=' text-gray-800 flex gap-10 justify-center flex-col items-center h-full'>
 					<a
 						href='/'
 						className={
-							hidden === 'calendar'
-								? 'text-center my-0.5 py-0.5 text-xl font-semibold text-pink-500 pointer-events-none'
+							hidden === 'home'
+								? 'text-center my-0.5 py-0.5 text-xl font-semibold text-orange-950  pointer-events-none'
 								: 'text-center my-0.5 py-0.5 text-xl font-semibold'
-						}
-						prefetch={false}>
+						}>
 						Home
 					</a>
+          
 					<a
 						href='/about'
 						className={
 							hidden === 'about'
-								? 'text-center my-0.5 py-0.5 text-xl font-semibold text-pink-500 pointer-events-none'
+								? 'text-center my-0.5 py-0.5 text-xl font-semibold line-through pointer-events-none'
 								: 'text-center my-0.5 py-0.5 text-xl font-semibold'
-						}
-						prefetch={false}>
+						}>
 						O Mnie
 					</a>
 					<a
@@ -55,8 +54,7 @@ const Navigation = ({ disabled, hidden }: NavigationProps) => {
 							hidden === 'workshops'
 								? 'text-center my-0.5 py-0.5 text-xl font-semibold text-pink-500'
 								: 'text-center my-0.5 py-0.5 text-xl font-semibold'
-						}
-						prefetch={false}>
+						}>
 						Projekty
 					</a>
 
@@ -66,8 +64,7 @@ const Navigation = ({ disabled, hidden }: NavigationProps) => {
 							hidden === 'contact'
 								? 'text-center my-0.5 py-0.5 text-xl font-semibold text-pink-500 pointer-events-none'
 								: 'text-center my-0.5 py-0.5 text-xl font-semibold'
-						}
-						prefetch={false}>
+						}>
 						Kontakt
 					</a>
 				</div>
