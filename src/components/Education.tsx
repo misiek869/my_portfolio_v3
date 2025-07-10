@@ -8,15 +8,23 @@ const Education = () => {
 			<h2 className='text-slate-100 text-3xl md:text-4xl font-bold tracking-wide capitalize 3xl:text-5xl mb-12'>
 				{t('educationTitle')}
 			</h2>
-			<div className='w-[80%] lg:w-[60%] text-slate-100 border p-6 rounded-lg'>
-				<h2>Mentoring frontend - JavaScript, React</h2>
-				<div className='flex gap-10'>
-					<p className='font-bold'>
-						Start: <span className='font-normal'>09.2023</span>{' '}
-					</p>
-					<p className='font-bold'>
-						Koniec: <span className='font-normal'>03.2024</span>
-					</p>
+			<div className='text-slate-100 border p-6 rounded-sm '>
+				<div className=''>
+					<h2 className='text-2xl md:text-3xl font-semibold mb-4 tracking-wider'>
+						Mentoring frontend - JavaScript, React
+					</h2>
+					<div className='flex gap-10 mb-3'>
+						<p className='font-bold text-xl md:text-2xl tracking-wider'>
+							Start: <span className='font-normal'>09.2023</span>{' '}
+						</p>
+						<p className='font-bold text-xl md:text-2xl tracking-wider'>
+							Koniec: <span className='font-normal'>03.2024</span>
+						</p>
+					</div>
+					<p className='tracking-wider'>{t('mentoringDescription')}</p>
+				</div>
+				<div className=''>
+					<img src='' alt='' />
 				</div>
 			</div>
 		</div>
