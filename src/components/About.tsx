@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import Skills from './Skills'
 import Navigation from './Navigation'
 import Footer from './Footer'
+import Education from './Education'
 
 const About = () => {
 	const { t } = useTranslation()
@@ -55,6 +56,7 @@ const About = () => {
 				</motion.div>
 
 				<Skills />
+				<Education />
 			</section>
 			<Footer />
 		</>
