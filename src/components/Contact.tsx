@@ -1,11 +1,16 @@
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import Footer from './Footer'
+import Navigation from './Navigation'
+
 const Contact = () => {
 	const { t } = useTranslation()
 	return (
 		<>
 			<motion.section
+				initial={{ opacity: 0 }}
+				animate={{ opacity: 1 }}
+				transition={{ delay: 0.1, duration: 0.7 }}
 				style={{
 					background: `
 radial-gradient(circle at 30% -30%, #131213 0%, transparent 48%),
@@ -25,6 +30,13 @@ radial-gradient(circle at 30% -30%, #131213 0%, transparent 48%),
 					</h3>
 				</div>
 			</motion.section>
+			<motion.div
+				initial={{ opacity: 0 }}
+				animate={{ opacity: 1 }}
+				transition={{ delay: 0.7, duration: 0.7 }}
+				className='fixed top-4 left-4'>
+				<Navigation hidden={'about'} />
+			</motion.div>
 			<Footer />
 		</>
 	)
