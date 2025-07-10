@@ -11,7 +11,7 @@ const Hero = () => {
 			<motion.div
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1 }}
-				transition={{ delay: 0.7, duration: 0.7 }}
+				transition={{ delay: 0.9, duration: 0.7 }}
 				className='fixed top-4 left-4'>
 				<Navigation hidden={'home'} />
 			</motion.div>
@@ -25,7 +25,7 @@ const Hero = () => {
 				}}>
 				<div className='flex flex-col items-start justify-center w-[90vw] lg:w-[70vw] mx-auto'>
 					<motion.h1
-						initial={{ x: '150%' }}
+						initial={{ x: '250%' }}
 						animate={{ x: 0 }}
 						exit={{ x: '150%' }}
 						transition={{ duration: 0.7 }}
@@ -33,7 +33,7 @@ const Hero = () => {
 						Michał Gawlik
 					</motion.h1>
 					<motion.h3
-						initial={{ x: '150%' }}
+						initial={{ x: '350%' }}
 						animate={{ x: 0 }}
 						exit={{ x: '150%' }}
 						transition={{ delay: 0.2, duration: 0.7 }}
@@ -54,7 +54,7 @@ const Hero = () => {
 						<motion.a
 							initial={{ opacity: 0 }}
 							animate={{ opacity: 1 }}
-							transition={{ delay: 0.7, duration: 0.7 }}
+							transition={{ delay: 0.9, duration: 0.7 }}
 							target='_blank'
 							href={'https://www.linkedin.com/in/m-gawlik/'}>
 							<FaLinkedin className='text-slate-100 w-8 h-8 md:w-10 md:h-10 3xl:w-12 3xl:h-12 hover:text-slate-200 hover:animate-pulse hover:scale-110 duration-300' />
@@ -62,7 +62,7 @@ const Hero = () => {
 						<motion.a
 							initial={{ opacity: 0 }}
 							animate={{ opacity: 1 }}
-							transition={{ delay: 0.7, duration: 0.7 }}
+							transition={{ delay: 0.9, duration: 0.7 }}
 							target='_blank'
 							href={'https://github.com/misiek869'}>
 							<FaSquareGithub className='text-slate-100 w-8 h-8 md:w-10 md:h-10 3xl:w-12 3xl:h-12 hover:text-slate-200 hover:animate-pulse hover:scale-110 duration-300' />
