@@ -51,8 +51,8 @@ const Navigation = ({ disabled, hidden }: NavigationProps) => {
 					<a
 						href='/projects'
 						className={
-							hidden === 'workshops'
-								? 'text-center my-0.5 py-0.5 text-xl font-semibold text-pink-500'
+							hidden === 'projects'
+								? 'text-center my-0.5 py-0.5 text-xl font-semibold text-orange-950  pointer-events-none'
 								: 'text-center my-0.5 py-0.5 text-xl font-semibold'
 						}>
 						Projekty
@@ -62,7 +62,7 @@ const Navigation = ({ disabled, hidden }: NavigationProps) => {
 						href='/contact'
 						className={
 							hidden === 'contact'
-								? 'text-center my-0.5 py-0.5 text-xl font-semibold text-pink-500 pointer-events-none'
+								? 'text-center my-0.5 py-0.5 text-xl font-semibold text-orange-950  pointer-events-none'
 								: 'text-center my-0.5 py-0.5 text-xl font-semibold'
 						}>
 						Kontakt

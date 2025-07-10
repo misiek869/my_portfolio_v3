@@ -24,7 +24,7 @@ const Projects = () => {
 					animate={{ opacity: 1 }}
 					transition={{ delay: 0.7, duration: 0.7 }}
 					className='fixed top-4 left-4'>
-					<Navigation hidden={'about'} />
+					<Navigation hidden={'projects'} />
 				</motion.div>
 				<motion.div
 					initial={{ opacity: 0 }}
