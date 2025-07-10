@@ -35,11 +35,7 @@ const Projects = () => {
 						{t('projectsTitle')}
 					</h2>
 					<p className='text-lg tracking-wide leading-loose md:text-xl 3xl:text-2xl 3xl:leading-[3rem] md:leading-relaxed text-justify'>
-						Oto kolekcja projektów pokazujących moje umiejętności. Kliknij na
-						dowolny projekt, aby zgłębić szczegóły dotyczące wykorzystanych
-						technologii oraz umiejętności nabytych w trakcie ich realizacji.
-						Możesz też od razu przejść do wersji live lub repozytorium na
-						GitHub.
+						{t('projectsDescription')}
 					</p>
 					<div className='mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-4 3xl:gap-8'>
 						{projects.map(project => {
