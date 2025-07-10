@@ -6,7 +6,7 @@ const Education = () => {
 	return (
 		<div className='w-[80vw] lg:w-[60vw] mx-auto mt-20 pb-20'>
 			<h2 className='text-slate-100 text-3xl md:text-4xl font-bold tracking-wide capitalize 3xl:text-5xl mb-12'>
-				{t('skillsTitle')}
+				{t('educationTitle')}
 			</h2>
 		</div>
 	)

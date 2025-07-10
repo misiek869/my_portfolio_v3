@@ -26,6 +26,7 @@ I build both frontend and full-stack projects – you can check out a few of the
 				goBackBtn: 'Go Back',
 				notFoundProject: `Can't find project`,
 				skillsTitle: 'My Skills',
+				educationTitle: 'Education',
 			},
 		},
 		pl: {
@@ -54,6 +55,7 @@ I build both frontend and full-stack projects – you can check out a few of the
 				goBackBtn: 'Powrót do strony głównej',
 				notFoundProject: 'Nie ma takiego projektu',
 				skillsTitle: 'Moje Umiejętności',
+				educationTitle: 'Edukacja',
 			},
 		},
 	},
