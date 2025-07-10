@@ -57,7 +57,7 @@ I build both frontend and full-stack projects – you can check out a few of the
 				heroBtn: 'moje projekty',
 				moreBtn: 'Więcej',
 				contactTitle: 'kontakt',
-				goBackBtn: 'Powrót do strony głównej',
+				goBackBtn: 'Powrót do projektów',
 				notFoundProject: 'Nie ma takiego projektu',
 				skillsTitle: 'Moje Umiejętności',
 				educationTitle: 'Edukacja',
