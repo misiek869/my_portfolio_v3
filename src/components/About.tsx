@@ -8,6 +8,8 @@ import Education from './Education'
 const About = () => {
 	const { t } = useTranslation()
 
+	const paragraphStyles = `text-lg tracking-wide leading-loose md:text-xl 3xl:text-2xl 3xl:leading-[3rem] mt-3 md:leading-relaxed text-justify`
+
 	return (
 		<>
 			<section
@@ -30,28 +32,16 @@ const About = () => {
 					animate={{ opacity: 1 }}
 					transition={{ delay: 0.1, duration: 0.7 }}
 					className='mb-8 w-[80vw] lg:w-[60vw] mx-auto text-slate-100 '>
-					<h2 className=' text-3xl md:text-4xl font-bold tracking-wide capitalize 3xl:text-5xl'>
+					<h2 className=' text-3xl md:text-4xl font-bold tracking-wide capitalize 3xl:text-5xl mb-10'>
 						{t('aboutTitle')}
 					</h2>
-					<div className='mt-10'>
-						<p className='text-lg sm:text-xl tracking-wide leading-loose md:text-2xl 3xl:text-3xl 3xl:leading-[3rem] md:leading-relaxed text-justify'>
-							{t('about_01')}
-						</p>
-						<p className='text-lg sm:text-xl tracking-wide leading-loose md:text-2xl 3xl:text-3xl 3xl:leading-[3rem] mt-6 md:leading-relaxed text-justify'>
-							{t('about_02')}
-						</p>
-						<p className='text-lg sm:text-xl tracking-wide leading-loose md:text-2xl 3xl:text-3xl 3xl:leading-[3rem] mt-6 md:leading-relaxed text-justify'>
-							{t('about_03')}
-						</p>
-						<p className='text-lg sm:text-xl tracking-wide leading-loose md:text-2xl 3xl:text-3xl 3xl:leading-[3rem] mt-6 md:leading-relaxed text-justify'>
-							{t('about_04')}
-						</p>
-						<p className='text-lg sm:text-xl tracking-wide leading-loose md:text-2xl 3xl:text-3xl 3xl:leading-[3rem] mt-6 md:leading-relaxed text-justify'>
-							{t('about_05')}
-						</p>
-						<p className='text-lg sm:text-xl tracking-wide leading-loose md:text-2xl 3xl:text-3xl 3xl:leading-[3rem] mt-6 md:leading-relaxed text-justify'>
-							{t('about_06')}
-						</p>
+					<div className=''>
+						<p className={paragraphStyles}>{t('about_01')}</p>
+						<p className={paragraphStyles}>{t('about_02')}</p>
+						<p className={paragraphStyles}>{t('about_03')}</p>
+						<p className={paragraphStyles}>{t('about_04')}</p>
+						<p className={paragraphStyles}>{t('about_05')}</p>
+						<p className={paragraphStyles}>{t('about_06')}</p>
 					</div>
 				</motion.div>
 
