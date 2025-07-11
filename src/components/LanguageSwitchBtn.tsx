@@ -65,7 +65,7 @@ const SwitchLanguageButton = () => {
 						<button
 							onClick={() => setIsOpen(!isOpen)}
 							type='button'
-							className='inline-flex items-center justify-center w-full rounded-sm border border-gray-300 shadow-sm px-4 py-2 bg-neutral-100 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none '
+							className='inline-flex items-center justify-center w-full rounded-full border border-gray-300 shadow-sm px-4 py-2 bg-neutral-100 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none '
 							id={LANGUAGE_SELECTOR_ID}
 							aria-haspopup='true'
 							aria-expanded={isOpen}>
@@ -87,7 +87,7 @@ const SwitchLanguageButton = () => {
 					</div>
 					{isOpen && (
 						<div
-							className='origin-top-right absolute right-0 mt-2 rounded-sm shadow-lg bg-neutral-100 ring-1 ring-black ring-opacity-5 '
+							className='origin-top-right absolute right-2 mt-2 rounded-md shadow-lg bg-neutral-100 ring-1 ring-black ring-opacity-5'
 							role='menu'
 							aria-orientation='vertical'
 							aria-labelledby='language-selector'>
