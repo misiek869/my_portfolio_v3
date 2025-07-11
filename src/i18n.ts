@@ -30,8 +30,7 @@ I build both frontend and full-stack projects – you can check out a few of the
 				mentoringDescription:
 					'The mentoring covered topics ranging from the basics to advanced concepts of HTML, CSS, JavaScript, React, Redux, and React Router. Under the guidance of an experienced developer-mentor, I learned how to build responsive websites and web applications. Additionally, I mastered the use of Git and GitHub to manage my projects. Through the mentoring program, I also gained knowledge of best programming practices and tools for testing and debugging code. Thanks to this course, I now feel confident in creating modern and functional web applications.',
 				mentoringOrganizer: 'Organizer',
-				projectsDescription:
-					'Here is a collection of projects showcasing my skills. Click on any project to explore details about the technologies used and the skills gained during its development. You can also go directly to the live version or the GitHub repository.',
+				projectsDescription: `Here is a collection of projects showcasing my skills. Click on any project to explore details about the technologies used and the skills I gained during development. You can also go directly to the live version or the GitHub repository. I'm constantly learning and working on new projects, so more will be added here regularly.`,
 			},
 		},
 		pl: {
@@ -65,7 +64,7 @@ I build both frontend and full-stack projects – you can check out a few of the
 					'Mentoring obejmował tematy od podstaw do zaawansowanych koncepcji HTML, CSS, JavaScript, React, Redux, React Router. Pod okiem doświadczonego mentora-programisty nauczyłem się, jak tworzyć responsywne strony internetowe i aplikacje internetowe. Dodatkowo opanowałem korzystanie z Gita i GitHuba do zarządzania moimi projektami. Dzięki mentoringowi zdobyłem również wiedzę na temat najlepszych praktyk programistycznych i narzędzi do testowania i debugowania kodu. Dzięki temu kursowi czuję się pewnie w tworzeniu nowoczesnych i funkcjonalnych aplikacji internetowych. ',
 				mentoringOrganizer: 'Organizator',
 				projectsDescription:
-					'Oto kolekcja projektów pokazujących moje umiejętności. Kliknij na dowolny projekt, aby zgłębić szczegóły dotyczące wykorzystanych	technologii oraz umiejętności nabytych w trakcie ich realizacji.	Możesz też od razu przejść do wersji live lub repozytorium na GitHub.',
+					'Oto kolekcja projektów pokazujących moje umiejętności. Kliknij na dowolny projekt, aby zgłębić szczegóły dotyczące wykorzystanych	technologii oraz umiejętności nabytych w trakcie ich realizacji.	Możesz też od razu przejść do wersji live lub repozytorium na GitHub. Cały czas się uczę i pracuję nad kolejnymi projektami, na bieżąco będą się tutaj pojawiać...',
 			},
 		},
 	},
