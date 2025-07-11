@@ -10,7 +10,7 @@ const Layout = () => {
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
 					transition={{ delay: 0.7, duration: 0.7 }}
-					className='fixed top-4 right-4'>
+					className='absolute top-4 right-4'>
 					<SwitchLanguageButton />
 				</motion.div>
 
