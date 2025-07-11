@@ -87,7 +87,7 @@ const SwitchLanguageButton = () => {
 					</div>
 					{isOpen && (
 						<div
-							className='origin-top-right absolute right-2 mt-2 rounded-md shadow-lg bg-neutral-100 ring-1 ring-black ring-opacity-5'
+							className='origin-top-right absolute right-2 mt-2 rounded-md shadow-lg bg-neutral-100 ring-1 ring-black ring-opacity-5 '
 							role='menu'
 							aria-orientation='vertical'
 							aria-labelledby='language-selector'>
@@ -101,8 +101,10 @@ const SwitchLanguageButton = () => {
 												selectedLanguage?.key === language.key
 													? 'bg-gray-200 text-gray-900'
 													: 'text-gray-700'
-											}  px-4 py-2 text-sm text-left items-center inline-flex hover:bg-gray-100 ${
-												index % 2 === 0 ? 'rounded-r' : 'rounded-l'
+											}  px-4 py-2 text-sm text-left items-center inline-flex hover:bg-gray-300 duration-200 ${
+												index % 2 === 0
+													? 'rounded-lg hover:bg-gray-300'
+													: 'rounded-lg'
 											}`}
 											role='menuitem'>
 											<FlagIcon countryCode={language.key} />
