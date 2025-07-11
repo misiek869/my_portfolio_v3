@@ -15,6 +15,12 @@ type NavigationProps = {
 	hidden?: string
 }
 
+const hiddenLinkClass =
+	'text-center my-0.5 py-0.5 text-xl font-semibold text-orange-950  pointer-events-none'
+
+const LinkClass =
+	'text-center my-0.5 py-0.5 text-xl font-semibold hover:text-gray-600 duration-200'
+
 const Navigation = ({ disabled, hidden }: NavigationProps) => {
 	return (
 		<Sheet>
@@ -32,9 +38,7 @@ const Navigation = ({ disabled, hidden }: NavigationProps) => {
 					<a
 						href='/'
 						className={
-							hidden === 'home'
-								? 'text-center my-0.5 py-0.5 text-xl font-semibold text-orange-950  pointer-events-none'
-								: 'text-center my-0.5 py-0.5 text-xl font-semibold'
+							hidden === 'home' ? `${hiddenLinkClass}` : `${LinkClass}`
 						}>
 						Home
 					</a>
@@ -42,18 +46,14 @@ const Navigation = ({ disabled, hidden }: NavigationProps) => {
 					<a
 						href='/about'
 						className={
-							hidden === 'about'
-								? 'text-center my-0.5 py-0.5 text-xl font-semibold text-orange-950  pointer-events-none'
-								: 'text-center my-0.5 py-0.5 text-xl font-semibold'
+							hidden === 'about' ? `${hiddenLinkClass}` : `${LinkClass}`
 						}>
 						O Mnie
 					</a>
 					<a
 						href='/projects'
 						className={
-							hidden === 'projects'
-								? 'text-center my-0.5 py-0.5 text-xl font-semibold text-orange-950  pointer-events-none'
-								: 'text-center my-0.5 py-0.5 text-xl font-semibold'
+							hidden === 'projects' ? `${hiddenLinkClass}` : `${LinkClass}`
 						}>
 						Projekty
 					</a>
@@ -61,9 +61,7 @@ const Navigation = ({ disabled, hidden }: NavigationProps) => {
 					<a
 						href='/contact'
 						className={
-							hidden === 'contact'
-								? 'text-center my-0.5 py-0.5 text-xl font-semibold text-orange-950  pointer-events-none'
-								: 'text-center my-0.5 py-0.5 text-xl font-semibold'
+							hidden === 'contact' ? `${hiddenLinkClass}` : `${LinkClass}`
 						}>
 						Kontakt
 					</a>
