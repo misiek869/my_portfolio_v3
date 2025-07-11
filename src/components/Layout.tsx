@@ -1,8 +1,6 @@
 import { Outlet } from 'react-router-dom'
 import SwitchLanguageButton from './LanguageSwitchBtn'
-import Footer from './Footer'
 import { motion } from 'framer-motion'
-import Navigation from './Navigation'
 
 const Layout = () => {
 	return (
