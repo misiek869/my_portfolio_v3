@@ -47,7 +47,7 @@ I build both frontend and full-stack projects – you can check out a few of the
 					'Szukam swojej pierwszej pracy jako frontend developer. Chcę uczyć się od bardziej doświadczonych programistów, rozwijać się w realnych produktach i wnosić do zespołu świeżą energię, odpowiedzialność i gotowość do działania.',
 				about_06:
 					'Jeśli szukasz kogoś, kto na serio chce wejść w IT i nie boi się pracy – odezwij się.',
-				aboutTitle: 'Kim Jestem',
+				aboutTitle: 'Kim Jestem?',
 				techTitle: 'umiejętności',
 				projectsTitle: 'moje projekty',
 				projectTech: 'Użyte technologie',
