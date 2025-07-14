@@ -40,16 +40,16 @@ const About = () => {
 						<div className='flex flex-wrap'>
 							<img
 								src={myPhoto}
-								alt='Opis zdjęcia'
-								className='w-full sm:w-1/3 pr-4 pb-4 float-right'
+								alt='my photo'
+								className='w-full sm:w-1/3 float-right rounded-full  border-slate-100 border-4'
 							/>
-							<div className='flex-1 min-w-[60%]'>
+							<div className='flex-1 min-w-[60%] ml-12'>
 								<p className={paragraphStyles}>{t('about_01')}</p>
 								<p className={paragraphStyles}>{t('about_02')}</p>
 							</div>
 						</div>
 
-						{/* Pełna szerokość od tego momentu */}
+						{/* full width */}
 						<p className={paragraphStyles}>{t('about_03')}</p>
 						<p className={paragraphStyles}>{t('about_04')}</p>
 						<p className={paragraphStyles}>{t('about_05')}</p>
