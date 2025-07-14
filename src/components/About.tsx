@@ -37,20 +37,20 @@ const About = () => {
 						{t('aboutTitle')}
 					</h2>
 					<div className='relative'>
-						<div className='flex flex-wrap'>
+						<div className='flex flex-wrap items-center'>
 							<img
 								src={myPhoto}
 								alt='my photo'
-								className='w-full sm:w-1/3 float-right rounded-full  border-slate-100 border-4'
+								className='w-[80%] sm:w-[60%] mx-auto xl:w-1/3 float-right rounded-full  border-slate-100 border-4'
 							/>
-							<div className='flex-1 min-w-[60%] ml-12'>
+							<div className='flex-1 min-w-[60%] xl:ml-12  mt-12 xl:mt-0'>
 								<p className={paragraphStyles}>{t('about_01')}</p>
 								<p className={paragraphStyles}>{t('about_02')}</p>
 							</div>
 						</div>
 
 						{/* full width */}
-						<p className={paragraphStyles}>{t('about_03')}</p>
+						<p className={`${paragraphStyles} xl:mt-12`}>{t('about_03')}</p>
 						<p className={paragraphStyles}>{t('about_04')}</p>
 						<p className={paragraphStyles}>{t('about_05')}</p>
 						<p className={paragraphStyles}>{t('about_06')}</p>
