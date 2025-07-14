@@ -1,10 +1,10 @@
-import { useTranslation } from 'react-i18next'
+// import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import Footer from './Footer'
 import Navigation from './Navigation'
 
 const Contact = () => {
-	const { t } = useTranslation()
+	// const { t } = useTranslation()
 	return (
 		<>
 			<motion.section
