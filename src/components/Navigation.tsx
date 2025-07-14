@@ -11,7 +11,6 @@ import { Menu } from 'lucide-react'
 import { VisuallyHidden } from '@radix-ui/react-visually-hidden'
 
 type NavigationProps = {
-	disabled?: boolean
 	hidden?: string
 }
 
@@ -21,7 +20,7 @@ const hiddenLinkClass =
 const LinkClass =
 	'text-center my-0.5 py-0.5 text-xl font-semibold hover:text-gray-600 duration-200'
 
-const Navigation = ({ disabled, hidden }: NavigationProps) => {
+const Navigation = ({ hidden }: NavigationProps) => {
 	return (
 		<Sheet>
 			<SheetTrigger>
