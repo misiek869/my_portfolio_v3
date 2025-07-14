@@ -18,7 +18,7 @@ const Projects = () => {
   radial-gradient(circle at 100% 110%, #4b1544 0%, #000 28%)
 `,
 				}}
-				className='max-w-screen min-h-screen py-20'>
+				className='max-w-screen min-h-screen py-24 flex flex-col justify-center'>
 				<motion.div
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
