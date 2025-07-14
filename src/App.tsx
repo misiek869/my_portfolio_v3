@@ -19,7 +19,6 @@ function App() {
 					<Route path='projects' element={<Projects />} />
 					<Route path='projects/:projectId' element={<ProjectDetails />} />
 					<Route path='contact' element={<Contact />} />
-					<Route path='projects/:projectId' element={<ProjectDetails />} />
 				</Route>
 			</Routes>
 		</AnimatePresence>
