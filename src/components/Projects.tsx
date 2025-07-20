@@ -37,7 +37,7 @@ const Projects = () => {
 					<p className='text-lg tracking-wide leading-loose md:text-xl 3xl:text-2xl 3xl:leading-[3rem] md:leading-relaxed text-justify'>
 						{t('projectsDescription')}
 					</p>
-					<div className='mt-10 grid sm:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-3 gap-16 3xl:gap-8'>
+					<div className='mt-10 grid sm:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-3 gap-16'>
 						{projects.map(project => {
 							const { url, github, title, text, tech, id } = project
 							return (
