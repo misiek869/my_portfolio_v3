@@ -4,8 +4,38 @@ import { FaSquareGithub, FaLinkedin } from 'react-icons/fa6'
 import { motion } from 'framer-motion'
 // import { TypeAnimation } from 'react-type-animation'
 import Navigation from './Navigation'
+import { useEffect, useState } from 'react'
 
 const Hero = () => {
+	const words = ['Developer', 'React Fan', 'Next.js Dev']
+	const [wordIndex, setWordIndex] = useState(0)
+	const [text, setText] = useState('')
+	const [isDeleting, setIsDeleting] = useState(false)
+	// const [speed, setSpeed] = useState(150)
+
+	useEffect(() => {
+		const currentWord = words[wordIndex]
+		const timeout = setTimeout(
+			() => {
+				if (isDeleting) {
+					setText(prev => prev.slice(0, -1))
+				} else {
+					setText(prev => currentWord.slice(0, prev.length + 1))
+				}
+
+				if (!isDeleting && text === currentWord) {
+					setTimeout(() => setIsDeleting(true), 1000)
+				} else if (isDeleting && text === '') {
+					setIsDeleting(false)
+					setWordIndex(prev => (prev + 1) % words.length)
+				}
+			},
+			isDeleting ? 50 : 150
+		)
+
+		return () => clearTimeout(timeout)
+	}, [text, isDeleting])
+
 	return (
 		<section className='max-w-screen'>
 			<motion.div
@@ -42,7 +72,7 @@ const Hero = () => {
 						<span className='text-gray-500 text-3xl lg:text-5xl 3xl:text-6xl'>
 							{'{'}
 						</span>
-						<span className='text-white'> Developer </span>
+						<span className='text-fuchsia-900 font-bold'> {text} </span>
 						<span className='text-gray-500 text-3xl lg:text-5xl 3xl:text-6xl'>
 							{'}'}
 						</span>
