@@ -38,7 +38,14 @@ const Hero = () => {
 						exit={{ x: '150%' }}
 						transition={{ delay: 0.2, duration: 0.7 }}
 						className='text-slate-100 text-2xl lg:text-4xl 3xl:text-5xl'>
-						Frontend Developer
+						Frontend{' '}
+						<span className='text-gray-500 text-3xl lg:text-5xl 3xl:text-6xl'>
+							{'{'}
+						</span>
+						<span className='text-white'> Developer </span>
+						<span className='text-gray-500 text-3xl lg:text-5xl 3xl:text-6xl'>
+							{'}'}
+						</span>
 					</motion.h3>
 
 					{/* <h3>
