@@ -76,7 +76,7 @@ const ProjectDetails = () => {
   radial-gradient(circle at 100% 110%, #2c2c2c 5%, #494949 40%)
 `,
 						}}
-						className=' rounded-xl shadow-sm p-5 sm:p-10 mt-10 max-w-full'>
+						className=' rounded-xl shadow-sm p-10 md:p-16 mt-10 max-w-full'>
 						<p className='text-xl 3xl:text-2xl  3xl:leading-10 leading-loose text-justify text-slate-50'>
 							{project.text[i18n.language as keyof typeof project.text]}
 						</p>
